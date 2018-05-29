@@ -1,5 +1,5 @@
 module.exports = {
-        add: function(){
-
+        add: function(inputValue){
+                return 0;
         },
 };
