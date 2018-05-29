@@ -5,4 +5,8 @@ describe("String Calculator", function(){
     beforeEach(function(){
         stringCalculator = require("../src/StringCalculator");
     });
+
+    it("has an add function", function(){
+        stringCalculator.add();
+    });
 });
