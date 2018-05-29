@@ -14,4 +14,13 @@ describe("String Calculator", function(){
 
         expect(result).toBe(expectedResult);
     });
+
+    it("has an add function that returns 0 when an empty string input is entered", function(){
+        const input = "";
+        const expectedResult = 0;
+
+        const result = stringCalculator.add(input);
+
+        expect(result).toBe(expectedResult);
+    })
 });
