@@ -1,5 +1,6 @@
 module.exports = {
-        add: function(inputValue){
-                return 0;
+        add: function (inputValue) {
+                if (!inputValue) return 0;
+                else return 1;
         },
 };
