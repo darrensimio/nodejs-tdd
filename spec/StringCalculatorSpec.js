@@ -23,4 +23,13 @@ describe("String Calculator", function(){
 
         expect(result).toBe(expectedResult);
     });
+
+    it("has an add function that takes in a string of 1,2 and returns a number value of 3", function(){
+        const input = "1,2";
+        const expectedResult = 3;
+
+        const result = stringCalculator.add(input);
+
+        expect(result).toBe(expectedResult);
+    });
 });
