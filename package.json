@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/darrensimio/nodejs-tdd/issues"
   },
-  "homepage": "https://github.com/darrensimio/nodejs-tdd#readme"
+  "homepage": "https://github.com/darrensimio/nodejs-tdd#readme",
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
 }
